@@ -3,6 +3,8 @@
 <head>
     <link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/angular_material/0.7.1/angular-material.min.css">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="//rawgit.com/jtrussell/Snap.js/master/snap.css">
+    <link rel="stylesheet" href="//rawgit.com/jtrussell/angular-snap.js-bower/master/angular-snap.css">
 </head>
 
 <body layout="column" ng-controller="AppCtrl">
@@ -31,8 +33,8 @@
                 </md-content>
             </md-sidenav>
             <md-content flex class="md-padding">
-                <div layout="column" layout-fill layout-align="center center">
-                    <div ng-controller="ListCtrl" layout="column" layout-fill>
+                <div layout-align="center center">
+                    <div ng-controller="ListCtrl" >
 
                         <md-content style="height: 100%;">
                             <md-list>
@@ -49,7 +51,7 @@
                                             </p>
                                         </div>
                                     </md-item-content>
-                                    <md-divider inset></md-divider>
+                                    
                                 </md-item>
                             </md-list>
                         </md-content>
